@@ -3,6 +3,7 @@ import {BrowserRouter,Routes,Route} from "react-router-dom";
 import Login from './pages/Login';
 import UserAuthRouter from './pages/UserAuth/UserAuthRouter';
 import AuthGuard from './_helpers/AuthGuard';
+import './components/public/Icone'
 const App = () => {
   return (
 
